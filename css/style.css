@@ -52,7 +52,7 @@ body {
 .info-offer {
     display: flex;
     justify-content: space-evenly;
-    padding-top: 30px;
+    padding-top: 20px;
     padding-bottom: 30px;
 }
 
@@ -150,6 +150,23 @@ button {
     font-weight: bold;
     color:white;
 
+}
+
+.ticket-owner {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:10px;
+    font-weight: bold;
+    font-size:1.1rem;
+}
+
+.error-box {
+    text-align: center;
+    color:red;
+    margin:0 auto;
+    font-weight: bold;
+    padding-bottom:5px;
+    text-decoration:underline;
 }
 
 /* UTILITY */

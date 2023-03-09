@@ -26,6 +26,22 @@ const button = document.getElementById("buy-button");
 button.addEventListener("click", function() {
     //TAKE THE VALUE VARIABLES FROM THE FORM VALUE
     let nameUser = document.getElementById("user-name").value;
-    console.log(nameUser); //TEST
+    let surnameUser = document.getElementById("user-surname").value;
+    let ageUser = document.getElementById("user-age").value;
+    let kmRide = document.getElementById("ride-km").value;
 
+
+    //PARSE NUMBER INTO INT
+    ageUser = parseInt(ageUser);
+    kmRide = parseInt(kmRide);
+    //CHECK ALL THE VALUES
+    if (nameUser && isNaN(nameUser) && surnameUser && isNaN(surnameUser) && ageUser && !isNaN(ageUser) && ageUser > 0 && kmRide && !isNaN(kmRide) && kmRide > 0 ) {
+        //INPUTS ARE OK
+
+    }
+
+    else {
+        //INPUTS CHECK FAILED
+        document.getElementById("error").innerHTML = "I dati di acquisto non risultano validi, riprova.";
+    }
 })
