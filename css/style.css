@@ -7,9 +7,9 @@
 body {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:cover;
     font-family: 'Montserrat', sans-serif;
-    background-position: center;
+    background-position:top;
 
 }
 
@@ -42,7 +42,7 @@ body {
 }
 
 .info-ticket {
-    padding: 20px 9px;
+    padding-top:10px;
     display: flex;
     justify-content: space-between;
     font-weight: bold;
@@ -152,6 +152,10 @@ button {
 
 }
 
+button:hover{
+    background-color: red;
+}
+
 .ticket-owner {
     display:flex;
     justify-content: space-around;
@@ -160,9 +164,8 @@ button {
     font-size:1.1rem;
 }
 
-.error-box {
+.okerror-box {
     text-align: center;
-    color:red;
     margin:0 auto;
     font-weight: bold;
     padding-bottom:5px;
@@ -173,4 +176,12 @@ button {
 
 .d-none {
     display:none;
+}
+
+.red {
+    color:red;
+}
+
+.green {
+    color:rgb(8, 167, 8);
 }
