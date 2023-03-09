@@ -85,6 +85,7 @@ button.addEventListener("click", function () {
 
             //SHOW THE TICKET
             htmlticket.classList.remove("d-none");
+            document.getElementById("page-body").classList.add("heightmax");
         }
         // OTHERWISE EMPTY THE DIV
         else {
@@ -100,6 +101,8 @@ button.addEventListener("click", function () {
         errorbox.classList.add("red");
         error.innerHTML = "I dati di acquisto non sono validi, riprova!"
         htmlticket.classList.add("d-none");
+        document.getElementById("page-body").classList.remove("heightmax");
+
 
     }
 })
