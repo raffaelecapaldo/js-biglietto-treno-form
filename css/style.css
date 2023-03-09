@@ -9,6 +9,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
+    background-position: center;
 
 }
 
@@ -149,4 +150,10 @@ button {
     font-weight: bold;
     color:white;
 
+}
+
+/* UTILITY */
+
+.d-none {
+    display:none;
 }
