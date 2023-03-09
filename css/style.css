@@ -4,13 +4,25 @@
     box-sizing: border-box;
 }
 
+.container::before{
+    display:block;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.3);
+    content:"";
+    height: auto;
+}
+
 body {
     background-image: url("../img/background.jpg");
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:auto;
     font-family: 'Montserrat', sans-serif;
-    background-position:top;
-    height: 100%;
+    background-position:right;
+    position: relative;
 }
 
 .container {
@@ -26,6 +38,8 @@ body {
     border-radius: 10px;
     color: white;
     box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+    position: relative;
+    z-index: 1000;
 }
 
 .logo {
@@ -82,6 +96,8 @@ body {
     margin:0 auto;
     color:white;
     border-radius:3px;
+    position: relative;
+    z-index: 1000;
 }
 
 .bg-logo {
@@ -209,3 +225,4 @@ button:hover{
         margin-left:50px;
     }
 }
+
