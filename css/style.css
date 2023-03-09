@@ -185,3 +185,27 @@ button:hover{
 .green {
     color:rgb(8, 167, 8);
 }
+
+/* MEDIA QUERY */
+@media screen and (max-width:728px) {
+    .buy-ticket {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width:616px) {
+    .top-input {
+        flex-flow: column;
+    }
+    .bottom-input {
+        flex-flow:column;
+    }
+
+    .mobile-margin-30 {
+        margin-left:30px;
+    }
+
+    .mobile-margin-50 {
+        margin-left:50px;
+    }
+}
