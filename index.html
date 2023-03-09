@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Il tuo biglietto</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="train-ticket">
+            <div class="logo">
+                <img src="img/logo.svg" alt="logo Trenitalia">
+            </div>
+            <div class="info-ticket">
+                <div class="client-data">
+                    <p>Età: <span id="user-age"></span> anni</p>
+                </div>
+                <div class="ride-data">
+                <p>KM CORSA: <span id="ride-km"></span></p>
+            </div>
+            </div>
+            <div class="info-offer">
+                <p>Offerta: <span id="offer-type"></span> </p>
+                <p>Prezzo: <span id="ticket-price"></span> </p>
+            </div>
+            <div class="qrcode">
+                <img src="img/qrcode.png" alt="qrcode">
+
+            </div>
+            <div class="km-price" id="pricebase-box">
+                <p>Il prezzo base è:
+                    <span id="base-price"></span>
+                </p>
+            </div>
+            <p>Grazie per aver viaggiato con noi!</p>
+        </div>
+    </div>
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>

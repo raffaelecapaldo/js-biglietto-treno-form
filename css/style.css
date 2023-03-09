@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.container {
+    width: 100%;
+}
+
+.train-ticket {
+    
+    background-color: rgb(224, 49, 49);
+    margin: 5px auto;
+    padding: 10px;
+    width: 380px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: rgba(255, 255, 255, 0.35) 0px 5px 15px;
+}
+
+.logo {
+    background-color: white;
+    padding: 10px;
+    margin: 0;
+    border-radius:3px;
+}
+
+.logo img {
+    margin: 0 auto;
+    display: block;
+    border-radius: 3px;
+}
+
+.info-ticket {
+    padding: 20px 9px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.info-offer {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.km-price {
+    padding-bottom: 10px;
+}
+
+#ticket-price {
+    font-weight: bold;
+}
+
+.qrcode {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.qrcode img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+
+}
